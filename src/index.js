@@ -7,7 +7,7 @@ import useBoxRenderer from './useBoxRenderer'
 
 import styles from './styles.module.css'
 
-const MODEL_PATH = process.env.PUBLIC_URL + '/model_web'
+const MODEL_PATH = process.env.PUBLIC_URL + '/model'
 
 const App = () => {
   const videoRef = useRef()
